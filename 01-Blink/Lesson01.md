@@ -1,6 +1,6 @@
 ## Lesson 01 - Blink
 
-When learning new programming language one prints out the simple phrase 
+When learning a new programming language one prints out the simple phrase 
 "Hello, World!" When learning a new graphics library one draws a point on the 
 screen. In electronics, one blinks an LED! This first lesson is exactly that, 
 setting up the GPIO programming environment and learning how to turn a LED on 
