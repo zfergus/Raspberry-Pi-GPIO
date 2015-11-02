@@ -10,4 +10,5 @@ Feel free to fork and submit a pull request with additions and modifications.
 Submit and issue for direct communication and help.
 
 ### Lessons
-1. Blink - blinking an LED. 
+1. Blink - blinking a LED. 
+2. Button - control a LED with a button.
