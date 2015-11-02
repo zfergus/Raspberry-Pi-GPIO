@@ -7,7 +7,7 @@ in projects and other applications.
 
 Feel free to fork and submit a pull request with additions and modifications.
 
-Submit and issue for direct communication and help.
+Submit an issue for direct communication about suggested improvements or help.
 
 ### Lessons
 1. Blink - blinking a LED. 
