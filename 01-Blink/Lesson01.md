@@ -15,8 +15,7 @@ and off.
 * 1 x Bread Board
 * 1 x LED
 * 1 x 40 kOhm Resistor
-* (Optional) 1 x [Pi Cobbler](https://learn.adafruit.com/adafruit-pi-cobbler-kit
-/overview)
+* (Optional) 1 x [Pi Cobbler](https://goo.gl/LhVmEg)
 
 #### Setting up the Environment
 
