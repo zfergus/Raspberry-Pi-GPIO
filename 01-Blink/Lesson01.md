@@ -116,9 +116,8 @@ if so calls main, beginning our blink loop.
 
 ### More
 
-[Blink without a pause](https://github.com/zfergus2/Raspberry-Pi-GPIO/blob/maste
-r/01-Blink/blink_without_pause.py) - An alternative program that blinks a LED 
-without using the time.pause function.
+[Blink without a pause](https://goo.gl/0lCA6y) - An alternative program that 
+blinks a LED without using the time.pause function.
 
 ### Next
 
@@ -126,9 +125,6 @@ Lesson 02: Something Else
 
 ### References
 
-1. Read more [here](http://raspberrypi.stackexchange.com/questions/12966/what-is
--the-difference-between-board-and-bcm-for-gpio-pin-numbering) for more 
-information about GPIO.setmode and the different ways to reference GPIO's.
-2. Read more [here](http://raspi.tv/2013/rpi-gpio-basics-3-how-to-exit-gpio-prog
-rams-cleanly-avoid-warnings-and-protect-your-pi) about why and how to use 
-GPIO.cleanup.
+1. Read more [here](http://goo.gl/RpTCBO) for more information about 
+GPIO.setmode and the different ways to reference GPIO's.
+2. Read more [here](http://goo.gl/YZDurf) about why and how to use GPIO.cleanup.
