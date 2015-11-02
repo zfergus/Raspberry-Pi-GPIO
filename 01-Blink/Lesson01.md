@@ -14,7 +14,7 @@ and off.
 * 2 x Jumper Cables (female to male if not using a pi cobbler)
 * 1 x Bread Board
 * 1 x LED
-* 1 x 40 kOhm Resistor
+* 1 x 40K ohm Resistor
 * (Optional) 1 x [Pi Cobbler](https://goo.gl/LhVmEg)
 
 #### Setting up the Environment
@@ -39,8 +39,8 @@ import the sleep method to pause execution while the LED is on or off.
 LED_PIN = 25
 ```
 
-Next we declare a global variable for the pin on the Raspberry Pi's GPIO that we
-will connect the LED to.
+Next we declare a global variable for the pin on the Raspberry Pi's GPIO to 
+which we will connect the LED.
 
 ```python
 # Setup the GPIO pins for an output on LED_PIN.
@@ -120,7 +120,7 @@ blinks a LED without using the time.pause function.
 
 ### Next
 
-Lesson 02: Something Else
+[Lesson 02: Buttons](http://broken.html)
 
 ### References
 

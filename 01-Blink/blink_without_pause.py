@@ -1,6 +1,6 @@
 # blink_without_pause.py
 # created by Zachary Ferguson
-# A program for the Raspberry Pi that blinks an led. Does so without using 
+# A program for the Raspberry Pi that blinks a LED. Does so without using 
 # the time.pause function.
 
 # Import the necessary files for GPIO use and getting the current time.
