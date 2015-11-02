@@ -14,7 +14,7 @@ and off.
 * 2 x Jumper Cables (female to male if not using a pi cobbler)
 * 1 x Bread Board
 * 1 x LED
-* 1 x 40 KOhm Resistor
+* 1 x 40 kOhm Resistor
 * (Optional) 1 x [Pi Cobbler](https://learn.adafruit.com/adafruit-pi-cobbler-kit
 /overview)
 
