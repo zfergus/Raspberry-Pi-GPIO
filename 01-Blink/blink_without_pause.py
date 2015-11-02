@@ -30,9 +30,9 @@ def setup():
 # Ends in the off state, but without a sleep after.
 def loop():
 	currentTime = time.time() # The current time in milliseconds.
-	
 	# If enough time has passed since the last switch.
 	if(currentTime-previousTime >= delayTime):
+		previousTime = currentTime
 		ledState = not ledState
 		# Switch the state of the LED.
 		GPIO.output(LED_PIN, ledState)
