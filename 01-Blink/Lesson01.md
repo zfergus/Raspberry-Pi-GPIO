@@ -120,7 +120,7 @@ blinks a LED without using the time.pause function.
 
 ### Next
 
-[Lesson 02: Buttons](http://broken.html)
+[Lesson 02: Buttons](https://goo.gl/Oa1PJw)
 
 ### References
 
