@@ -114,6 +114,12 @@ directly or import it in another python file with out running main
 automatically. The if statement check if this script is being run directly and 
 if so calls main, beginning our blink loop.
 
+### More
+
+[Blink without a pause](https://github.com/zfergus2/Raspberry-Pi-GPIO/blob/maste
+r/01-Blink/blink_without_pause.py) - An alternative program that blinks a LED 
+without using the time.pause function.
+
 ### Next
 
 Lesson 02: Something Else
