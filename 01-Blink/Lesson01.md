@@ -14,7 +14,7 @@ and off.
 * 2 x Jumper Cables (female to male if not using a pi cobbler)
 * 1 x Bread Board
 * 1 x LED
-* 1 x 40K ohm Resistor
+* 1 x 220 ohm resistor
 * (Optional) 1 x [Pi Cobbler](https://goo.gl/LhVmEg)
 
 #### Setting up the Environment
