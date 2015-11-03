@@ -1,4 +1,4 @@
-## Lesson 01 - Blink
+# Lesson 01 - Blink
 
 When learning a new programming language one prints out the simple phrase 
 "Hello, World!" When learning a new graphics library one draws a point on the 
@@ -6,9 +6,9 @@ screen. In electronics, one blinks an LED! This first lesson is exactly that,
 setting up the GPIO programming environment and learning how to turn a LED on 
 and off.
 
-### Setup
+## Setup
 
-#### What you need:
+### What you need:
 
 * 1 x Raspberry Pi (any model)
 * 2 x Jumper Cables (female to male if not using a pi cobbler)
@@ -17,11 +17,27 @@ and off.
 * 1 x 220 ohm resistor
 * (Optional) 1 x [Pi Cobbler](https://goo.gl/LhVmEg)
 
-#### Setting up the Environment
+### Setting up your Environment
 
 // setup
 
-### The Program
+### Circuit
+
+<img src = "../illustrations/Lesson01_Blink.svg" title = "Circuit Diagram" 
+	style = "display: block; margin-left: auto; margin-right: auto;
+			 width: 400px;"/>
+
+<br>
+The circuit of this lesson is fairly simple one. First, we use a jumper cable to
+connect GPIO pin 25 to the anode of our LED. The LED picture above is a 505nm 
+LED but any color LED will work. Next, connect the cathode of the LED to wither 
+pin of the resistor. The resistor is necessary to regulate the amount of current
+that flows through the LED, preventing the LED or the Pi from being damaged. The
+resistor used here is a 220 ohm resistor, but any resistor, up to 1K ohm, will 
+work. Finally we connect the free pin of the resistor to the ground pin on the 
+Raspberry's GPIO.
+
+## Code
 
 ```python
 # Import the necessary files for GPIO use and sleeping the program.
@@ -113,16 +129,16 @@ directly or import it in another python file with out running main
 automatically. The if statement check if this script is being run directly and 
 if so calls main, beginning our blink loop.
 
-### More
+## More
 
 [Blink without a pause](https://goo.gl/0lCA6y) - An alternative program that 
 blinks a LED without using the time.pause function.
 
-### Next
+## Next
 
 [Lesson 02: Buttons](https://goo.gl/Oa1PJw)
 
-### References
+## References
 
 1. Read more [here](http://goo.gl/RpTCBO) for more information about 
 GPIO.setmode and the different ways to reference GPIO's.
