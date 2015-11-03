@@ -23,7 +23,7 @@ and off.
 
 ### Circuit
 <div style = "display: block; margin-left: auto; margin-right: auto;">
-	![Circuit Diagram](./Lesson01_Blink.png)
+	![Circuit Diagram](https://goo.gl/mS4I89)
 </div>
 <br>
 The circuit of this lesson is fairly simple one. First, we use a jumper cable to
