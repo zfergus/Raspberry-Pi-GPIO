@@ -22,7 +22,7 @@ and off.
 // setup
 
 ### Circuit
-<img src = "../illustrations/Lesson01_Blink.svg" title="Circuit Diagram"
+<img src = "../illustrations/Lesson01_Blink.png" title="Circuit Diagram"
 	style = "display: block; margin-left: auto; margin-right: auto;"/>
 <br>
 The circuit of this lesson is fairly simple one. First, we use a jumper cable to
