@@ -25,7 +25,7 @@ and off.
 
 <img src = "../illustrations/Lesson01_Blink.png" title = "Circuit Diagram" 
 	style = "display: block; margin-left: auto; margin-right: auto;
-			 width: 400px;"/>
+			 width: 200px;"/>
 
 <br>
 The circuit of this lesson is fairly simple one. First, we use a jumper cable to
