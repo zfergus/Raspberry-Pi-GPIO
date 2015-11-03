@@ -23,7 +23,8 @@ and off.
 
 ### Circuit
 
-<img src = "Lesson01_Blink.svg" title = "Circuit Diagram" 
+![Circuit Diagram](Lesson01_Blink.svg)
+<!img src = "Lesson01_Blink.svg" title = "Circuit Diagram" 
 	style = "display: block; margin-left: auto; margin-right: auto;
 			 width: 400px;"/>
 
