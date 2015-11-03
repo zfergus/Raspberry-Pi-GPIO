@@ -22,11 +22,8 @@ and off.
 // setup
 
 ### Circuit
-<div style = "display: block; margin-left: auto; margin-right: auto;">
-
-![Circuit Diagram](../illustrations/Lesson01_Blink.svg?raw=true)
-
-</div>
+<img src = "../illustrations/Lesson01_Blink.svg" title="Circuit Diagram"
+	style = "display: block; margin-left: auto; margin-right: auto;"/>
 <br>
 The circuit of this lesson is fairly simple one. First, we use a jumper cable to
 connect GPIO pin 25 to the anode of our LED. The LED picture above is a 505nm 
