@@ -10,12 +10,13 @@ and off.
 
 ### What you need:
 
-* 1 x Raspberry Pi (any model)
-* 2 x Jumper Cables (female to male if not using a pi cobbler)
-* 1 x Bread Board
-* 1 x LED
-* 1 x 220 ohm resistor
-* (Optional) 1 x [Pi Cobbler](https://goo.gl/LhVmEg)
+* Raspberry Pi (any model)
+* Any color LED
+* 220 ohm resistor
+* Jumper Cables (female to male if not using a pi cobbler)
+* Bread Board
+* (Optional) [Pi Cobbler](https://goo.gl/LhVmEg)
+
 
 ### Setting up your Environment
 

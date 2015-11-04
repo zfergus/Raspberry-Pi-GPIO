@@ -9,14 +9,14 @@ on and off.
 
 ### What you need:
 
-* 1 x Raspberry Pi (any model)
-* 4 x Jumper Cables (female to male if not using a pi cobbler)
-* 5 x Bread Board
-* 1 x LED
-* 1 x Tack switch
-* 1 x 10K ohm resistor
-* 1 x 40K ohm Resistor
-* (Optional) 1 x [Pi Cobbler](https://goo.gl/LhVmEg)
+* Raspberry Pi (any model)
+* Any color LED
+* Momentary button
+* 10K ohm resistor
+* 220 ohm resistor
+* Jumper Cables (female to male if not using a pi cobbler)
+* Bread Board
+* (Optional) [Pi Cobbler](https://goo.gl/LhVmEg)
 
 ### Setting up your Environment
 
