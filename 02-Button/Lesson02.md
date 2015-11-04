@@ -18,4 +18,13 @@ on and off.
 * 1 x 40K ohm Resistor
 * (Optional) 1 x [Pi Cobbler](https://goo.gl/LhVmEg)
 
+### Setting up your Environment
+
+See [setup in lesson 01](../01-Blink/Lesson01.md#setting-up-your-environment)
+
+### Circuit
+<center>
+	<img src = "../illustrations/Lesson02_Button.png" title="Circuit Diagram"/>
+</center>
+
 ## The Code

@@ -11,4 +11,4 @@ Submit an issue for direct communication about suggested improvements or help.
 
 ## Lessons
 1. [Blink](./01-Blink/Lesson01.md) - blinking a LED. 
-2. [Button](./01-Button/Lesson01.md) - control a LED with a button.
+2. [Button](./02-Button/Lesson02.md) - control a LED with a button.
