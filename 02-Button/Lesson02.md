@@ -20,7 +20,7 @@ on and off.
 
 ### Setting up your Environment
 
-See [setup in lesson 01](../01-Blink/Lesson01.md#setting-up-your-environment)
+See [setup in Lesson 01](../01-Blink/Lesson01.md#setting-up-your-environment).
 
 ### Circuit
 <center>
