@@ -29,7 +29,7 @@ See [setup in Lesson 01](../01-Blink/Lesson01.md#setting-up-your-environment).
 </center>
 <br>
 The circuit needed in this lesson is an extension upon the one used in 
-[lesson one](../01-Blink/Lesson01.md#TheCircuit), so begin by setting up the 
+[lesson one](../01-Blink/Lesson01.md#the-circuit), so begin by setting up the 
 same circuit on your bread board. 
 
 Once the LED circuit is set up, start by connecting the +3.3V and ground pins to 
@@ -45,7 +45,7 @@ the bread board are connected across the gap via the button. Now, use a 10k ohm
 resistor to connect the button to ground. This resistor acts as a pull-down 
 resistor, a resistor that holds the voltage of the column down to ground when 
 the button is not pressed. This prevents the voltage value of the pin from 
-"floating," or varying between ground and +3.3V.[[1]](#References) 
+"floating," or varying between ground and +3.3V.[[1]](#references) 
 
 Finally, connect the ground column of the button to pin number 24 on the 
 Raspberry Pi via a 1k ohm resistor. This resistor prevents damage to the Pi if 
@@ -95,7 +95,7 @@ or False for High or Low respective. In this case the button state is False when
 the button is not pressed and True when it is pressed.
 
 The remainder of the code is the same as in 
-[Lesson 01](../01-Blink/Lesson01.md#TheCode), and the entire script can be 
+[Lesson 01](../01-Blink/Lesson01.md#the-code), and the entire script can be 
 viewed [here](./button.py).
 
 ## Next
