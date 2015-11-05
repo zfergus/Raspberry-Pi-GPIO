@@ -68,7 +68,7 @@ def setup():
 
 The setup functions initializes the GPIO and sets the LED_PIN to an output. 
 The function GPIO.setmode sets the way in which the GPIO pins are referenced.
-[[1]](#References) This program uses BCM which allows us to refer to pins by 
+[[1]](#references) This program uses BCM which allows us to refer to pins by 
 their label rather than their board numbers. GPIO.setup is used to specify a pin
 number and whether the pin should be used as output, GPIO.OUT, or input, 
 GPIO.IN.
@@ -119,7 +119,7 @@ this is inside of a try-except block so that it can catch any KeyboardInterrupts
 or SystemExist. By catching these exceptions the program can clean up the GPIO, 
 ensuring the GPIO and LED are turned off, and exit cleanly. GPIO.cleanup sets 
 the pins to low and frees them up for other programs to use later on.
-[[2]](#References) 
+[[2]](#references) 
 
 ```python
 # If being run directly.
