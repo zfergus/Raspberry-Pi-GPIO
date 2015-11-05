@@ -29,7 +29,7 @@ See [setup in Lesson 01](../01-Blink/Lesson01.md#setting-up-your-environment).
 </center>
 <br>
 The circuit needed in this lesson is an extension upon the one used in 
-[lesson one](../01-Blink/Lesson01.md#the-circuit), so begin by setting up the 
+[Lesson one](../01-Blink/Lesson01.md#the-circuit), so begin by setting up the 
 same circuit on your bread board. 
 
 Once the LED circuit is set up, start by connecting the +3.3V and ground pins to 
