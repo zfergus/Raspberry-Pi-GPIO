@@ -7,7 +7,7 @@
 import RPi.GPIO as GPIO
 import time
 
-# Constant for the pin the LED is plugged in on.
+# Constant for the pin to which the LED is plugged attached.
 LED_PIN = 25
 
 # Boolean for if the LED is currently on.

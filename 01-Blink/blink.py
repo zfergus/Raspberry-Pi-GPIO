@@ -6,7 +6,7 @@
 import RPi.GPIO as GPIO
 from time import sleep
 
-# Constant for the pin the LED is plugged in on.
+# Constant for the pin to which the LED is plugged attached.
 LED_PIN = 25
 
 # Setup the GPIO pins for an output on LED_PIN.
