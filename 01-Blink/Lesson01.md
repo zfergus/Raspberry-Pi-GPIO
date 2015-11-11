@@ -144,6 +144,8 @@ to be import by another python script with out running main automatically. The
 if statement check if this script is being run directly and if so calls main, 
 beginning the blink loop.
 
+The script in its entirety can be viewed [here](./blink.py).
+
 ## More
 
 [Blink without a pause](./blink_without_pause.py) - An alternative program that 
