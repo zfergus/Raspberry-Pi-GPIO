@@ -1,5 +1,5 @@
 # button.py
-# created by Zachary Ferguson
+# Written by Zachary Ferguson.
 # A program for the Raspberry Pi that reads the state of a button and controls 
 # the state of a LED.
 
@@ -13,13 +13,13 @@ BUTTON_PIN = 24
 
 # Setup the GPIO pins for an output on LED_PIN.
 def setup():
-	print "Setting up GPIO"
+	print("Setting up GPIO")
 	GPIO.setmode(GPIO.BCM)
 	GPIO.setup(LED_PIN, GPIO.OUT)   # Set the LED pin as an output.
 	GPIO.setup(BUTTON_PIN, GPIO.IN) # Set the button pin as an input.
 
 # Loop function for the program that reads the state of the button then writes 
-# the state to the LED.
+# the state to the LED. 
 def loop():
 	# Get the state of the button.
 	buttonState = GPIO.input(BUTTON_PIN)
@@ -34,8 +34,10 @@ def main():
 		while True:
 			loop()
 	except (KeyboardInterrupt, SystemExit):
+		print("\nCleaning up GPIO")
 		GPIO.cleanup()
-		raise
+		print("Exiting")
+		exit()
 	
 # If being run directly.
 if __name__=="__main__":

@@ -70,7 +70,7 @@ connected.
 ```python
 # Setup the GPIO pins for an output on LED_PIN.
 def setup():
-	print "Setting up GPIO"
+	print("Setting up GPIO")
 	GPIO.setmode(GPIO.BCM)
 	GPIO.setup(LED_PIN, GPIO.OUT)   # Set the LED pin as an output.
 	GPIO.setup(BUTTON_PIN, GPIO.IN) # Set the button pin as an input.

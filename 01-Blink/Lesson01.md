@@ -22,6 +22,16 @@ and off.
 
 // setup
 
+In order to start using the GPIO in your python scripts you first need to 
+download the GPIO library files. These files allow you to interact with the GPIO
+through function calls. The library is written in Python 2, but is compatible 
+with Python 3, the version used in these lessons.
+
+
+### The GPIO
+
+// description of the GPIO layout
+
 ### The Circuit
 <center>
 	<img src = "../illustrations/Lesson01_Blink.png" title="Circuit Diagram"/>
@@ -61,7 +71,7 @@ GPIO to which the LED is connected.
 ```python
 # Setup the GPIO pins for an output on LED_PIN.
 def setup():
-	print "Setting up GPIO"
+	print("Setting up GPIO")
 	GPIO.setmode(GPIO.BCM)
 	GPIO.setup(LED_PIN, GPIO.OUT)
 ```
@@ -79,12 +89,12 @@ GPIO.IN.
 def loop():
 	# LED OFF
 	GPIO.output(LED_PIN, False)
-	print "LED is OFF"
+	print("LED is OFF")
 	sleep(1)
 	
 	# LED ON
 	GPIO.output(LED_PIN, True)
-	print "LED is ON"
+	print("LED is ON")
 	sleep(1)
 	
 	# LED OFF; NO SLEEP
@@ -109,8 +119,10 @@ def main():
 		while True:
 			loop()
 	except (KeyboardInterrupt, SystemExit):
+		print("\nCleaning up GPIO")
 		GPIO.cleanup()
-		raise
+		print("Exiting")
+		exit()
 ```
 
 Finally, the main controlling function of the program, main. Main simply calls 

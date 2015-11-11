@@ -1,5 +1,5 @@
 # blink_without_pause.py
-# created by Zachary Ferguson
+# Created by Zachary Ferguson.
 # A program for the Raspberry Pi that blinks a LED. Does so without using 
 # the time.pause function.
 
@@ -21,7 +21,7 @@ delayTime = 1000
 
 # Setup the GPIO pins for an output on LED_PIN.
 def setup():
-	print "Setting up GPIO"
+	print("Setting up GPIO")
 	GPIO.setmode(GPIO.BCM)
 	GPIO.setup(LED_PIN, GPIO.OUT)
 	previousTime = time.time() # Initialize the start time.
@@ -36,7 +36,7 @@ def loop():
 		ledState = not ledState
 		# Switch the state of the LED.
 		GPIO.output(LED_PIN, ledState)
-		print "LED is %s" % ("ON" if ledState else "OFF")
+		print("LED is %s" % ("ON" if ledState else "OFF"))
 
 # Main function for blink. Sets up then loops then cleans up.
 def main():
@@ -45,8 +45,10 @@ def main():
 		while True:
 			loop()
 	except (KeyboardInterrupt, SystemExit):
+		print("\nCleaning up GPIO")
 		GPIO.cleanup()
-		raise
+		print("Exiting")
+		exit()
 	
 # If being run directly.
 if __name__=="__main__":

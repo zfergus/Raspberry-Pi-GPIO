@@ -1,5 +1,5 @@
 # blink.py
-# created by Zachary Ferguson
+# Created by Zachary Ferguson.
 # A program for the Raspberry Pi that blinks a LED.
 
 # Import the necessary files for GPIO use and sleeping the program.
@@ -11,7 +11,7 @@ LED_PIN = 25
 
 # Setup the GPIO pins for an output on LED_PIN.
 def setup():
-	print "Setting up GPIO"
+	print("Setting up GPIO")
 	GPIO.setmode(GPIO.BCM)
 	GPIO.setup(LED_PIN, GPIO.OUT)
 
@@ -20,12 +20,12 @@ def setup():
 def loop():
 	# LED OFF
 	GPIO.output(LED_PIN, False)
-	print "LED is OFF"
+	print("LED is OFF")
 	sleep(1)
 	
 	# LED ON
 	GPIO.output(LED_PIN, True)
-	print "LED is ON"
+	print("LED is ON")
 	sleep(1)
 	
 	# LED OFF; NO SLEEP
@@ -38,8 +38,10 @@ def main():
 		while True:
 			loop()
 	except (KeyboardInterrupt, SystemExit):
+		print("\nCleaning up GPIO")
 		GPIO.cleanup()
-		raise
+		print("Exiting")
+		exit()
 	
 # If being run directly.
 if __name__=="__main__":
