@@ -1,5 +1,5 @@
 # blink.py
-# Created by Zachary Ferguson.
+# Written by Zachary Ferguson.
 # A program for the Raspberry Pi that blinks a LED.
 
 # Import the necessary files for GPIO use and sleeping the program.

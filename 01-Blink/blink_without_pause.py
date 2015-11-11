@@ -1,5 +1,5 @@
 # blink_without_pause.py
-# Created by Zachary Ferguson.
+# Written by Zachary Ferguson.
 # A program for the Raspberry Pi that blinks a LED. Does so without using 
 # the time.pause function.
 

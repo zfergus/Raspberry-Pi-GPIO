@@ -20,13 +20,31 @@ and off.
 
 ### Setting up your Environment
 
-// setup
+In order to start using the GPIO pins in your python scripts you first need to 
+install the GPIO library, RPi.GPIO. This module allows you to interact with the 
+GPIO pin through function calls. The library is written in Python 2, but is 
+compatible with Python 3, the version of Python used in these lessons.
 
-In order to start using the GPIO in your python scripts you first need to 
-download the GPIO library files. These files allow you to interact with the GPIO
-through function calls. The library is written in Python 2, but is compatible 
-with Python 3, the version used in these lessons.
+To start with you need to update your repository list in order to get the newest
+version. Do this by opening a terminal prompt and enter the following command:
+```bash
+sudo apt-get update
+```
+Now that your repository list is up to date, you can first install the Python 
+Development toolkit. This toolkit is required by RPi.GPIO.
 
+Install the tool kit by entering the following command in your terminal:
+```bash
+sudo apt-get install python-dev
+```
+Finally, to install the GPIO module enter the following command:
+```bash
+sudo apt-get install python-rpi.gpio
+```
+Confirm any prompts by entering 'Y'. 
+
+Now you should have RPi.GPIO installed and updated, and you are ready to make 
+your first project.
 
 ### The GPIO
 
