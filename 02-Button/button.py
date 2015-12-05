@@ -17,6 +17,7 @@ def setup():
 	GPIO.setmode(GPIO.BCM)
 	GPIO.setup(LED_PIN, GPIO.OUT)   # Set the LED pin as an output.
 	GPIO.setup(BUTTON_PIN, GPIO.IN) # Set the button pin as an input.
+	print("Done Setup\n\nPush the Button.")
 
 # Loop function for the program that reads the state of the button then writes 
 # the state to the LED. 
