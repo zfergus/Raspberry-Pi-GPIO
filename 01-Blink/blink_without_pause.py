@@ -30,10 +30,10 @@ def setup():
 # Loop through the blink cycle, Off -> Sleep(2) -> On -> Sleep(2) -> Off.
 # Ends in the off state, but without a sleep after.
 def loop():
+	global previousTime, ledState # Declare global variables used.
 	currentTime = time.time() # The current time in seconds.
 	# If enough time has passed since the last switch.
 	if(currentTime-previousTime >= delayTime):
-		global previousTime, ledState # Declare global variables used.
 		previousTime = currentTime
 		ledState = not ledState
 		# Switch the state of the LED.
