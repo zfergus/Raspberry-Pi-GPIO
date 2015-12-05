@@ -34,7 +34,7 @@ Now that your repository list is up to date, you can first install the Python
 Development toolkit. This toolkit is required by RPi.GPIO.
 
 Install the tool kit by entering the following command in your terminal:
-```bash
+```shell
 sudo apt-get install python-dev
 ```
 Finally, to install the GPIO module enter the following command:
@@ -49,6 +49,36 @@ your first project.
 ### The GPIO
 
 // description of the GPIO layout
+
+####Raspberry Pi A/B rev2:
+
+|        |    |    |        |
+| ------:|:--:|:--:| ------ |
+|   3.3V |  1 |  2 |     5V |
+|  GPIO2 |  3 |  4 |     5V |
+|  GPIO3 |  5 |  6 |    GND |
+|  GPIO4 |  7 |  8 | GPIO14 |
+|    GND |  9 | 10 | GPIO15 |
+| GPIO17 | 11 | 12 | GPIO18 |
+| GPIO27 | 13 | 14 |    GND |
+| GPIO22 | 15 | 16 | GPIO23 |
+|   3.3V | 17 | 18 | GPIO24 |
+| GPIO10 | 19 | 20 |    GND |
+|  GPIO9 | 21 | 22 | GPIO25 |
+| GPIO11 | 23 | 24 |  GPIO8 |
+|    GND | 25 | 26 |  GPIO7 |
+
+####Raspberry Pi A+/B+/2:
+
+|        |    |    |        |
+| ------:|:--:|:--:| ------ |
+|    DNC | 27 | 28 |    DNC |
+|  GPIO5 | 29 | 30 |    GND |
+|  GPIO6 | 31 | 32 | GPIO12 |
+| GPIO13 | 33 | 34 |    GND |
+| GPIO19 | 35 | 36 | GPIO16 |
+| GPIO26 | 37 | 38 | GPIO12 |
+|    GND | 39 | 40 | GPIO21 |
 
 ### The Circuit
 <center>
@@ -163,6 +193,25 @@ if statement check if this script is being run directly and if so calls main,
 beginning the blink loop.
 
 The script in its entirety can be viewed [here](./blink.py).
+
+### Running the Code
+To run the code simply open a terminal prompt and navigate to the directory you 
+saved your script in. Once in the correct directory, enter the following to run 
+the program:
+```bash
+sudo python3 blink.py
+```
+Where blink.py is the name of your script. Note that sudo is needed because 
+you need super user privileges to interface with the GPIO. 
+
+Also note, the above command runs the code using Python 3. If you want to run 
+the code in Python 2 enter the following:
+```bash
+sudo python blink.py
+```
+Note, for this example the script will run in either 2 or 3, but there is no
+guarantee that future lessons will be so nice. To avoid any complications simply 
+use python3.
 
 ## More
 
