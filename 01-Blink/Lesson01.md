@@ -50,7 +50,7 @@ your first project.
 
 // description of the GPIO layout
 
-####Raspberry Pi A/B rev2:
+#### Raspberry Pi A/B rev2:
 
 |        |    |    |        |
 | ------:|:--:|:--:| ------ |
@@ -68,7 +68,7 @@ your first project.
 | GPIO11 | 23 | 24 |  GPIO8 |
 |    GND | 25 | 26 |  GPIO7 |
 
-####Raspberry Pi A+/B+/2:
+#### Raspberry Pi A+/B+/2:
 
 |        |    |    |        |
 | ------:|:--:|:--:| ------ |
